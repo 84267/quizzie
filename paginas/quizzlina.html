@@ -31,7 +31,35 @@
       <!-- Begin content -->
       <div id="maincontent">
       <!-- Begin hier -->
-      <h1>Manifest</h1>
+      <h1>Manifest</h1> <br>
+
+      <form id = "quiz" name = "quiz">
+
+
+        <p class = "questions">What is the capital of Rhode Island?</p>
+        <input id = "textbox" type = "text" name = "question1">
+        
+        <p class = "questions">What is the capital of Connecticut?</p>
+        <input type = "radio" id = "mc" name = "question2" value = "Hartford"> Hartford<br>
+        <input type = "radio" id = "mc" name = "question2" value = "Heartford"> Heartford<br>
+        
+        <p class = "questions">What is the capital of New York?</p>
+        
+        <input type = "radio" id = "mc" name = "question3" value = "Albany"> Albany<br>
+        <input type = "radio" id = "mc" name = "question3" value = "All Benny's"> All Benny's<br>
+        
+        
+        <input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+        
+        
+        </form>
+        
+        <div id = "after_submit">
+        <p id = "number_correct"></p>
+        <p id = "message"></p>
+        <img id = "picture">
+        </div>
+
       </div>
       <!-- Eind content -->
     <footer id="footer">
