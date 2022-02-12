@@ -1,5 +1,4 @@
 function check(){
-
 	let question1 = document.quiz.question1.value;
 	let question2 = document.quiz.question2.value;
 	let question3 = document.quiz.question3.value;
@@ -12,7 +11,7 @@ function check(){
 	let question10 = document.quiz.question10.value;
 	let correct = 0;
 
-
+	
 	if (question1 == "5 jaar") {
 		correct++;
 }
@@ -45,24 +44,24 @@ function check(){
 	}
 	
 	let pictures = ["../media/win.gif", "../media/meh.gif", "../media/lose.gif"];
-	let messages = ["Goed gedaan je hebt alles goed!", "Helaas niet alles goed..", "Helaas, alles fout!"];
+	let messages = ["Goed gedaan je hebt alles goed!", "Helaas niet alles goed...", "Helaas, alles fout!"];
 	let score;
 
-	if (correct == 0) {
-		score = 3;
+	if (correct < 1) {
+		score = 2;
 	}
 
 	if (correct > 0 && correct < 10) {
 		score = 1;
 	}
 
-	if (correct == 3) {
+	if (correct == 10) {
 		score = 0;
 	}
 
 	document.getElementById("after_submit").style.visibility = "visible";
 
 	document.getElementById("message").innerHTML = messages[score];
-	document.getElementById("number_correct").innerHTML = "Je hebt " + correct + " goed.";
+	document.getElementById("number_correct").innerHTML = "Je hebt " + correct + " van de 10 goed.";
 	document.getElementById("picture").src = pictures[score];
 	}
