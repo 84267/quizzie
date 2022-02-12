@@ -36,10 +36,10 @@ function check(){
 	if (question8 == "7") {
 		correct++;
 }	
-	if (question9 == "Zorg voor mekaar voordat ik ga") {
+	if (question9 == "Zorg goed voor mekaar") {
 		correct++;
 	}
-	if (question10 == "Een goude ketting") {
+	if (question10 == "Een gouden ketting") {
 		correct++;
 	}
 	

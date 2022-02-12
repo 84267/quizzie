@@ -157,13 +157,15 @@ body {
 }
 
 
-
+/*
+quiz
+*/
 
 #quiz {
 	margin-left: 10px;
-	background: #d2def2;
+	background: #a8c9d6;
 	padding: 10px 20px 10px 20px;
-	width: 400px;
+	width: 800px;
 	border-radius: 20px;
 	float: left;
 
@@ -184,7 +186,7 @@ input {
 
 
 #button {
-	background: green;
+	background: #416300;
 	border: none;
 	border-radius: 5px;
 	padding: 10px;
@@ -198,7 +200,7 @@ input {
 
 #button:hover {
 	background: white;
-	border: 1px solid green;
+	border: 1px solid #416300;
 	color: black;
 	cursor: pointer;
 
@@ -206,20 +208,20 @@ input {
 
 #after_submit {
 	visibility: hidden;
-	background: #ff5459;
+	background: #a8c9d6;
 	padding: 10px 20px 10px 20px;
-	width: 400px;
+	width: 500px;
 	border-radius: 20px;
 	float: left;
 	margin-left: 20px;
-	font-size: 30px;
+	font-size: 40px;
 
 
 }
 
 #picture {
-	width: 375px;
-	height: 245px;
+	width: 500px;
+	height: 310px;
 }
 
 
