@@ -6,16 +6,41 @@ function check(){
 	let question4 = document.quiz.question4.value;
 	let question5 = document.quiz.question5.value;
 	let question6 = document.quiz.question6.value;
+	let question7 = document.quiz.question7.value;
+	let question8 = document.quiz.question8.value;
+	let question9 = document.quiz.question9.value;
+	let question10 = document.quiz.question10.value;
 	let correct = 0;
 
 
 	if (question1 == "5 jaar") {
 		correct++;
 }
-	if (question4 == "Evie") {
+	if (question2 == "Evie") {
 		correct++;
 }	
-	if (question5 == "Vlucht 537") {
+	if (question3 == "Vlucht 537") {
+		correct++;
+	}
+	if (question4 == "191") {
+		correct++;
+}
+	if (question5 == "Leukemie") {
+		correct++;
+}	
+	if (question6 == "Karen Stone") {
+		correct++;
+	}
+	if (question7 == "Alex") {
+		correct++;
+}
+	if (question8 == "7") {
+		correct++;
+}	
+	if (question9 == "Zorg voor mekaar voordat ik ga") {
+		correct++;
+	}
+	if (question10 == "Een goude ketting") {
 		correct++;
 	}
 	
@@ -24,7 +49,7 @@ function check(){
 	let score;
 
 	if (correct == 0) {
-		score = 2;
+		score = 3;
 	}
 
 	if (correct > 0 && correct < 3) {
