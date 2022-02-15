@@ -1,10 +1,10 @@
 let myQuestions = [
     {
-        question: "Wat is 3x3?",
+        question: "Wanneer begon de tweede wereldoorlog?",
         answers: {
-            a: '6 </br>', 
-            b: '9 </br>',
-            c: '12 </br>'
+            a: '1940 </br>', 
+            b: '1914 </br>',
+            c: '1939 </br>'
         }, 
         correctAnswer: 'b'
     },
