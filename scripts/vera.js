@@ -2,11 +2,11 @@ let myQuestions = [
     {
         question: "Wanneer begon de tweede wereldoorlog?",
         answers: {
-            a: '1940 </br>', 
-            b: '1914 </br>',
-            c: '1939 </br>'
+            A: '1940 </br>', 
+            B: '1914 </br>',
+            C: '1939 </br>'
         }, 
-        correctAnswer: 'c'
+        correctAnswer: 'C'
     },
     {
         question: "Wie is er beroemd geworden na de tweede wereldoorlog?",
