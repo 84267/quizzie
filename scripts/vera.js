@@ -9,7 +9,7 @@ let myQuestions = [
         correctAnswer: 'C'
     },
     {
-        question: "Wie is er beroemd geworden na de Tweede Wereldoorlog?",
+        question: "Wie is er bekender geworden na de Tweede Wereldoorlog?",
         answers: {
             A: 'Anna Frank </br>',
             B: 'Adolf Hitler </br>',
