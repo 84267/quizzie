@@ -9,13 +9,13 @@ let myQuestions = [
         correctAnswer: 'c'
     },
     {
-        question: "Wat is 10/2?",
+        question: "Wie is er beroemd geworden na de tweede wereldoorlog?",
         answers: {
-            a: '115',
-            b: '3',
-            c: '5'
+            a: 'Anna Frank',
+            b: 'Adolf Hitler',
+            c: 'Hannah Goslar'
         },
-        correctAnswer: 'c'
+        correctAnswer: 'a'
     }
 ];
 
