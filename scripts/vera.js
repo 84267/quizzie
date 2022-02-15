@@ -11,9 +11,9 @@ let myQuestions = [
     {
         question: "Wie is er beroemd geworden na de tweede wereldoorlog?",
         answers: {
-            a: 'Anna Frank',
-            b: 'Adolf Hitler',
-            c: 'Hannah Goslar'
+            a: 'Anna Frank </br>',
+            b: 'Adolf Hitler </br>',
+            c: 'Hannah Goslar </br>'
         },
         correctAnswer: 'a'
     }
