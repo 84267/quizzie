@@ -87,7 +87,7 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
             }
         }
 
-        resultsContainer.innerHTML = numCorrect + ' out of ' + questions.length;
+        resultsContainer.innerHTML = numCorrect + ' van de ' + questions.length;
     }
 
     showQuestions(questions, quizContainer);
