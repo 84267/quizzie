@@ -1,6 +1,6 @@
 let myQuestions = [
     {
-        question: "Wanneer begon de tweede wereldoorlog?",
+        question: "Wanneer begon de Tweede Wereldoorlog?",
         answers: {
             A: '1940 </br>', 
             B: '1914 </br>',
@@ -9,14 +9,23 @@ let myQuestions = [
         correctAnswer: 'C'
     },
     {
-        question: "Wie is er beroemd geworden na de tweede wereldoorlog?",
+        question: "Wie is er beroemd geworden na de Tweede Wereldoorlog?",
         answers: {
             A: 'Anna Frank </br>',
             B: 'Adolf Hitler </br>',
             C: 'Hannah Goslar </br>'
         },
         correctAnswer: 'A'
-    }
+    },
+    {
+        question: "Hoeveel slachtoffers zijn er gevallen tijdens de Tweede Wereldoorlog?",
+        answers: {
+            A: '30 tot 40 miljoen </br>',
+            B: '50 tot 70 miljoen </br>',
+            C: '120 tot 180 miljoen </br>'
+        },
+        correctAnswer: 'B'
+    },
 ];
 
 let quizContainer = document.getElementById('quiz');
