@@ -6,7 +6,7 @@ let myQuestions = [
             b: '1914 </br>',
             c: '1939 </br>'
         }, 
-        correctAnswer: 'b'
+        correctAnswer: 'c'
     },
     {
         question: "Wat is 10/2?",
