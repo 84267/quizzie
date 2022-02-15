@@ -11,11 +11,11 @@ let myQuestions = [
     {
         question: "Wie is er beroemd geworden na de tweede wereldoorlog?",
         answers: {
-            a: 'Anna Frank </br>',
-            b: 'Adolf Hitler </br>',
-            c: 'Hannah Goslar </br>'
+            A: 'Anna Frank </br>',
+            B: 'Adolf Hitler </br>',
+            C: 'Hannah Goslar </br>'
         },
-        correctAnswer: 'a'
+        correctAnswer: 'A'
     }
 ];
 
