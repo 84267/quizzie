@@ -2,7 +2,7 @@ let myQuestions = [
     {
         question: "Wanneer begon de Tweede Wereldoorlog?",
         answers: {
-            A: '1940 </br>', 
+            A: '1940 ', 
             B: '1914 </br>',
             C: '1939 </br>'
         }, 
