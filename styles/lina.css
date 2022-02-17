@@ -151,6 +151,7 @@ ul#sub li:hover {
 #quiz{
     padding: 5px;
     margin: 5px;
+    column-count: 2;
 }
 
 #fotom, #fotos{
@@ -169,6 +170,7 @@ ul#sub li:hover {
 
 #center{
     text-align: center;
+    
 }
 
 #tekst {
