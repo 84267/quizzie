@@ -148,6 +148,11 @@ ul#sub li:hover {
     margin-left: 20px;
 }
 
+#quiz{
+    padding: 5px;
+    margin: 5px;
+}
+
 #fotom{
     display: block;
     margin-left: auto;
