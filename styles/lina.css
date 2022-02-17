@@ -153,17 +153,18 @@ ul#sub li:hover {
     margin: 5px;
 }
 
-#fotom{
+#fotom, #fotos{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
-#fotos{
+
+#mani{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 30%;
 }
 
 #center{
