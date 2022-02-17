@@ -148,6 +148,23 @@ ul#sub li:hover {
     margin-left: 20px;
 }
 
+#fotom{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#fotos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#center{
+    text-align: center;
+}
+
 #tekst {
     text-align: center;
 }
