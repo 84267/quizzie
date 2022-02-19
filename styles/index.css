@@ -151,3 +151,24 @@ ul#sub li:hover {
 #tekst {
     text-align: center;
 }
+
+/* columns
+*/
+
+.columns {
+    margin: 5rem auto;
+    width: min(90%, 75rem);
+    display: grid;
+    grid-auto-flow: row;
+    gap: 2em;
+  }
+  
+  @media (min-width: 55em) {
+    .columns {
+      grid-auto-flow: column;
+     }
+  }
+
+  #home{
+      text-align: center;
+  }
