@@ -152,6 +152,17 @@ ul#sub li:hover {
     text-align: center;
 }
 
+#fotok, #fotob{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#center{
+    text-align: center;
+    
+}
 
 
 body{
