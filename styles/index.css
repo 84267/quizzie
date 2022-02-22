@@ -172,3 +172,9 @@ ul#sub li:hover {
   #home{
       text-align: center;
   }
+
+  #manifest, #infolina, #wereldoorlog, #infovera {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  } 
