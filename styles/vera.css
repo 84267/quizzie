@@ -186,3 +186,7 @@ ul#sub li:hover {
   #submit:hover{
     background-color: #3a8;
   }
+
+  #quiz{
+    padding: 10;
+  }
