@@ -173,8 +173,25 @@ ul#sub li:hover {
       text-align: center;
   }
 
-  #manifest, #infolina, #wereldoorlog, #infovera {
+  #manifest {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-  } 
+    height: 30%;
+  }
+#infolina {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+#wereldoorlog {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+#infovera {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 70%;
+}
